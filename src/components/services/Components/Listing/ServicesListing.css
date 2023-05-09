@@ -1,0 +1,22 @@
+.servicesListingItem {
+  width: 33.333%;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 24px;
+  position: relative;
+}
+.servicesListingRow {
+  display: flex;
+  flex-wrap: wrap;
+}
+.servicesListingItem::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 1px solid #484848;
+  position: absolute;
+  left: 0;
+  top: 6px;
+  border-radius: 50%;
+}

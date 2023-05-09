@@ -1,0 +1,269 @@
+.ProcessSection .form_control.textarea {
+    height: auto;
+    font-family: "Poppins-Regular" ;
+  }
+  .banner_form {
+    background: #E8EFFF;
+    padding: 30px;
+  }
+  .heading_form {
+    text-align: center;
+    font-family: "Poppins-Regular";
+    padding-bottom: 10px;
+  }
+  
+  .ProcessSection .form_control {
+    /* appearance: revert; */
+    margin: 0 !important;
+    background-color: #ffffff !important;
+  }
+  .contact_form_item {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .ProcessSection  .form_control.textarea {
+    height: 80px;
+  }
+  .contact_form_item .errormsg {
+    left: 15px;
+    bottom: -17px;
+  }
+  /* input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    transition: background-color 9999s ease-in-out 0s;
+  } */
+  .checkedLabel {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    font-family: "Poppins-Regular";
+  }
+  .checkcontainer {
+    display: flex;
+    flex: 1;
+  }
+  
+  
+  
+  .inputItem {
+    display: inline-flex;
+    align-items: center;
+    flex: 1;
+    /* padding: 0.5rem; */
+  }
+  /* input[type="radio"] {
+    display: none;
+  } */
+  .inputItem label {
+    /* background: white;
+    border: 1px solid #184A88;
+    border-radius: 0px;
+    padding: 0 9px;
+    text-align: center;
+    position: relative;
+    font-weight: 600;
+    width: 100%; */
+   margin: 0 0 0 10px;
+   font-size: 14px;
+   font-family: "Poppins-Regular";
+  }
+  /* .inputItem input[type="radio"]:checked + label {
+    background: #184A88;
+    color: #ffffff;
+  } */
+  /* @media only screen and (max-width: 700px) {
+    section {
+      flex-direction: column;
+    }
+  } */
+
+  .office_map iframe {
+    width: 100%;
+    min-height: 80vh;
+}
+.office_map {
+  border-top: 7px solid #184a88;
+  border-bottom: 7px solid #184a88;
+}
+.contact_Banner {
+  background: url(../../assets/images/contBg.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+.contact_form_section{
+  margin-bottom: 20px;
+}
+  .contact_form_section .submit_buttom {
+    background: #184a88;
+    border: 1px solid #ffffff;
+    margin: auto;
+    max-width: 200px;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 10px 50px;
+    font-family: "Poppins-Medium";
+  }
+  .contact_form_section .submit_buttom:hover {
+    opacity: 0.8;
+  }
+  .form_control {
+    box-shadow: none;
+    resize: none;
+    width: 100%;
+    height: 50px !important;
+    padding: 0 15px;
+    margin: 0 0 30px 0;
+    color: #172b43;
+    font-size: 16px;
+    outline: 0;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: "Poppins-Regular";
+}
+.form_control::-webkit-outer-spin-button,
+.form_control::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.form_control {
+  -moz-appearance: textfield;
+}
+
+.form_control.textarea {
+  height: 80px !important ;
+  padding-top: 13px;
+}
+.get_touch h4, .contact_form_section h3 {
+    font-size: 32px;
+    color: #221B26;
+    font-family: 'Poppins-Bold';
+}
+.contact_box {
+  padding: 0px 0 15px 50px;
+  border-bottom: 1px solid #f9f9f9;
+  position: relative;
+  margin-bottom: 20px;
+}
+.contact_box h2 {
+  font-size: 20px;
+  color: #221B26;
+  font-family: "Poppins-Medium";
+  margin: 0 0 8px;
+}
+.contact_box div {
+    font-size: 15px;
+    color: #858585;
+}
+.contact_box div a {
+    color: #858585;
+}
+.contact_box div a:hover {
+    color: #184a88;
+}
+.contact_box .icon {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+.contact_box .icon svg {
+  width: 30px;
+}
+.form_group, .contact_form_label {
+  position: relative;
+}
+.errormsg {
+  color: #ff0000;
+  /* position: absolute; */
+  font-size: 12px !important;
+  left: 0;
+  bottom: -23px ;
+  margin: 0!important;
+  line-height: normal !important;
+}
+@media screen and (max-width: 767px) { 
+  .get_touch h4, .contact_form_section h3 {
+    font-size: 25px;
+  }
+  .form_control {
+    margin: 0 0 15px 0;
+  }
+}
+
+.innerHeading {
+  color: #221b26;
+  font-size: 20px;
+  font-family: "Poppins-ExtraBold";
+  text-align: center;
+  /* margin-bottom: 40px; */
+}
+
+.contact_form_section .submit_buttom {
+  background: #184a88;
+  border: 1px solid #ffffff;
+  margin: auto;
+  max-width: 200px;
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 10px 50px;
+}
+.contact_form_section .submit_buttom:hover {
+  opacity: 0.8;
+}
+.get_touch h4, .contact_form_section h3 {
+  font-size: 32px;
+  color: #221B26;
+  font-family: 'Poppins-Bold';
+}
+
+@media screen and (max-width: 767px) { 
+  .get_touch h4, .contact_form_section h3 {
+    font-size: 25px;
+  }
+  .form_control {
+    margin: 0 0 15px 0;
+  }
+}
+
+
+#wrapper.hireBanner {
+  background-image: none;
+  padding: 0;
+}
+section.InnerBanner {
+  padding: 0;
+  border-bottom: 1px solid rgba(52, 66, 104, 0.07);
+}
+.hireBanner .banner_contact h1 {
+  font-size: 55px;
+  line-height: 74px;
+}
+.appBanner .p3 {
+  background-image: url("/assets/images/hire/app.png");
+}
+.InnerBanner #contaianer div {
+  height: 100%;
+}
+.InnerBanner #contaianer #wrapper {
+  background: none;
+}
+.hireBanner {
+  background: #f2f2f2;
+}
+@media screen and (max-width: 1200px) {
+  .hireBanner .banner_contact h1 {
+      font-size: 40px;
+      line-height: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hireBanner .banner_contact h1 {
+      font-size: 35px;
+  }
+}
+

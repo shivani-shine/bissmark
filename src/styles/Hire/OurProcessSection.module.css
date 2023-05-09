@@ -1,0 +1,90 @@
+.ourProcessSection {
+    background-color: #fafbfc;
+    border-bottom: 1px solid rgba(52, 66, 104, 0.07);
+}
+.ProcessWrapper {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.ProcessWrapper .comment {
+    max-width: 50%;
+    border-right: 4px solid #e8ebed;
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+}
+.comment.left {
+    border-left: 4px solid transparent;
+    border-right-color: #eff6ff;
+}
+.comment.right {
+    margin-right: 4px;
+    margin-left: auto;
+    border-left: 4px solid #eff6ff;
+    border-right-width: 4px;
+    border-right-color: transparent;
+}
+.commentText {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #eff6ff;
+}
+.pointed {
+    position: absolute;
+    left: auto;
+    top: 0;
+    right: -2%;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    background-color: #eff6ff;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.comment.right .pointed {
+    left: -2%;
+    top: 0;
+    right: auto;
+    bottom: 0;
+    background-color: #eff6ff;
+}
+
+
+.comment:after {
+    content: "";
+    position: absolute;
+    left: auto;
+    top: 50%;
+    right: -15px;
+    bottom: 0;
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background-color: #eff6ff;
+    transform: translateY(-41%);
+}
+.comment.right:after {
+    left: -15px;
+    right: auto;
+}
+
+.commentText h3 {
+    font-size: 18px;
+    font-family: "Poppins-SemiBold";
+    margin-bottom: 10px;
+}
+.commentText p {
+    font-size: 14px;
+    font-family: "Poppins-Regular";
+    margin-bottom: 0;
+    line-height: normal;
+}

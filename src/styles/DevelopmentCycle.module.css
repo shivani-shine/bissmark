@@ -1,0 +1,287 @@
+/* .comment {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 400;
+  color: #221b26;
+  text-align: left;
+  line-height: 24px;
+}
+.tsmnl_carousel .comment:after {
+  display: none;
+}
+.carousel_item {
+  margin-top: 40px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 6px;
+  position: relative;
+  margin: 30px auto 0;
+}
+.tsmnl_carousel .carousel_item {
+  display: block;
+}
+.tsmnl_carousel .item {
+  padding: 0 10px 35px;
+  overflow: hidden;
+}
+.testimonials_section .slick-arrow {
+  display: none !important;
+}
+.reviews_item_header {
+  display: flex;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.reviews_item_info > *{
+
+     color: #68696F;
+}
+
+.reviews_item_img {
+    width: 75px;
+    height: 75px;
+    min-width: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.reviews_item_img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.reviews_item_name {
+  margin: 0 0 2px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: 'Poppins-Bold';
+}
+.reviews_item_position {
+  font-size: 14px;
+  line-height: 18px;
+}
+.comment {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 400;
+  color: #221B26;
+  text-align: left;
+  line-height: 24px;
+}
+.testimonials_section .slick_dots {
+  bottom: 0;
+}
+.slick_dots li button {
+  width: 8px;
+  height: 8px;
+  margin: 0 !important;
+  background: #2B5E9F;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+.slick_dots li button::before {
+  display: none;
+}
+.slick_dots li.slick_active button {
+  background: #2B5E9F;
+    opacity: 1;
+    transform: scale(1.2);
+}
+@media screen and (max-width: 767px) {
+  .reviews_item_img {
+      width: 55px;
+      height: 55px;
+      min-width: 55px;
+      margin-right: 10px;
+  }
+} */
+
+
+
+
+
+
+
+.comment {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 400;
+  color: #221b26;
+  text-align: left;
+  line-height: 24px;
+}
+.tsmnl_carousel .comment:after {
+  display: none;
+}
+.carousel_item {
+  /* margin-top: 40px; */
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 6px;
+  position: relative;
+  margin: 30px auto 0;
+}
+.tsmnl_carousel .carousel_item {
+  display: block;
+}
+.tsmnl_carousel .item {
+  padding: 0 10px 35px;
+  overflow: hidden;
+}
+.testimonials_section .slick-arrow {
+  display: none !important;
+}
+.reviews_item_header {
+  display: flex;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.reviews_item_img {
+    width: 75px;
+    height: 75px;
+    min-width: 75px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.reviews_item_img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.reviews_item_name {
+  margin: 0 0 2px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  font-family: 'Poppins-Bold';
+}
+.reviews_item_position {
+  font-size: 14px;
+  line-height: 18px;
+}
+.comment {
+  font-size: 14px;
+  margin: 0;
+  font-weight: 400;
+  color: #221B26;
+  text-align: left;
+  line-height: 24px;
+}
+.testimonials_section .slick-dots {
+  bottom: 0;
+}
+.slick-dots li button {
+  width: 8px;
+  height: 8px;
+  margin: 0 !important;
+  background: #2B5E9F;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+.slick-dots li button::before {
+  display: none;
+}
+.slick-dots li.slick-active button {
+  background: #2B5E9F;
+    opacity: 1;
+    transform: scale(1.2);
+}
+@media screen and (max-width: 767px) {
+  .reviews_item_img {
+      width: 55px;
+      height: 55px;
+      min-width: 55px;
+      margin-right: 10px;
+  }
+  .reviews_item_name{
+    font-size: 13px;
+    line-height: 17px;
+  }
+}
+
+
+/*Sub heading*/
+
+.heading{
+  text-align: center;
+}
+
+.heading_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.heading_wrapper:after,
+.heading_wrapper:before {
+  content: "";
+  display: inline-flex;
+  width: 32px;
+  height: 2px;
+  background: #2b5e9f;
+  border-radius: 5px;
+}
+.heading_wrapper span {
+  font-size: 16px;
+  line-height: 34px;
+  color: #2b5e9f;
+  font-family: "Poppins-SemiBold";
+  margin: 0 16px;
+}
+.heading {
+  color: #221b26;
+  font-size: 32px;
+  font-family: "Poppins-ExtraBold";
+  margin: 7px 0 10px;
+}
+.sub_heading {
+  font-family: "Poppins-Medium";
+  margin: 20px 0 30px;
+}
+
+@media screen and ( max-width: 568px){
+  .carousel_item{
+    margin-top: 82px !important;
+    padding: 6px 15px;
+    margin: -143px -10px 0px;
+  }
+  .testimonials_section{
+    height: 40vh !important;
+  }
+  .what_our_client .heading{
+    font-size: 20px;
+  }
+  .reviews_item_name{
+    font-size: 13px;
+    line-height: 17px;
+  }
+  .reviews_item_info{
+    width: 500px;
+  }
+}
+
+@media screen and ( max-width: 375px){
+.comment{
+  font-size: 12px;
+  line-height: 17px;
+}
+.reviews_item_position{
+  font-size: 12px;
+}
+}

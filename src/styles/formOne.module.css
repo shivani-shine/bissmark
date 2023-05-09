@@ -1,0 +1,116 @@
+.bottom_border_input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-bottom: 1px solid #ccc; /* set bottom border style */
+}
+.first_form_style{
+    margin-top: 10px;
+    border-top: 4px solid rgb(128, 158, 228) !important;
+    border: 1px solid #ccc;
+    padding: 40px;
+    border-radius: 5px;
+}
+.forth_form_style{
+  margin-top: 18px;
+  border-top: 4px solid rgb(128, 158, 228) !important;
+  border: 1px solid #ccc;
+  padding: 40px;
+  border-radius: 5px;
+}
+.continue_button{
+    margin: 20px;
+    background-color: rgb(128, 158, 228);
+    border: none;
+    color: white;
+}
+.continue_button:hover {
+    background-color: rgb(61, 61, 148);
+    color: white;
+  }
+  .product_classes{
+    border-radius: .25rem;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+  }
+  .service_classes{
+    margin-top:10px;
+    border: 1px solid #ccc;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+  }
+  .textarea_div{
+    display: flex;
+    flex-direction: row;
+  }
+  .textarea_style{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-bottom: '1px solid #ccc';
+  }
+  .note_div{
+    text-align: justify;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f3ecf7;
+    border-left: 4px solid rgb(85, 63, 157) !important;
+  }
+  .first_div{
+    display: flex;
+    flex-direction: row;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .bottom_border_input:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+  }
+  .require{
+    color:red;
+  }
+  .helps_cls{
+    font-size: 13px;
+    color: #5c99ed;
+    margin: 0;
+    font-weight: 600;
+  }
+  .first_form_label{
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .radiobutton{
+    margin-top: 12px;
+  }
+  .subtext{
+    margin-top: 30px;
+  }
+  .text_field{ 
+  background-color: #eff5f9;
+    border: 0;
+    border-radius: 50px;
+    height: 45px;
+    padding: 10px 40px 10px 20px;
+    -webkit-appearance: none;
+  }
+    .product_para{
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    }
+    .checkbox_section{
+    padding-left: 28px;
+    padding-bottom: 24px;}
+.three_form_text{
+    color: #4b3481;
+    font-size: 18px;
+    padding: 12px;
+    font-weight: 500;
+  }

@@ -1,0 +1,229 @@
+.aboutBanner h1 {
+  font-size: 64px;
+  font-family: "Poppins-ExtraBold";
+  /* margin: 0 0 20px; */
+}
+.aboutBanner {
+  background-image: url("../assets/images/maptwo.jpg");
+  background-size: cover;
+  height: 458px;
+}
+.aboutBanner p {
+  font-family: "Poppins-Regular";
+  color: #68696f;
+}
+
+#myVideo {
+  width: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .aboutBanner h1 {
+    font-size: 54px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .aboutBanner .col-sm-4.d-xl-none.d-lg-block {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .aboutBanner h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+.welcome_section {
+  background: #ffffff;
+  color: #221b26;
+}
+.welcome_section iframe {
+  width: 100% !important;
+}
+.welcome_section h2 {
+  color: #000000;
+  margin: 10px 0 24px;
+  font-size: 32px;
+  font-family: "Poppins-ExtraBold";
+}
+
+.welcome_section p {
+  font-family: "Poppins-Regular";
+  color: #221b26;
+}
+
+.choose_services {
+  justify-content: center;
+}
+.choose_services .detailed_web_sol {
+  border: 1px solid rgba(44, 64, 88, 0.05);
+  padding: 25px;
+  min-height: 100%;
+}
+.choose_services .detailed_web_sol:hover {
+  box-shadow: 0px 0px 20px -10px black !important;
+  border-radius: 2px;
+  transition: box-shadow 0.4s ease-in-out;
+}
+.choose_services .detailed_web_sol h4 {
+  font-size: 18px;
+  color: #221b26;
+  font-family: "Poppins-Bold";
+}
+.choose_services .detailed_web_sol p {
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  font-family: "Poppins-Regular";
+}
+.choose_services .detailed_web_sol img {
+  max-width: 60px;
+  max-height: 60px;
+  margin-bottom: 22px;
+}
+.btn_online {
+  margin: 12px;
+  padding: 14px;
+  background: #7981e5;
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.start_btn {
+  background: transparent;
+  padding: 12px 18px;
+  border: 1px solid #7981e5;
+  color: #7981e5;
+  border-radius: 8px;
+  font-weight: 500;
+}
+.numbers_style {
+    color: #7981e5;
+    font-weight: 40px;
+    font-size:50px;
+    opacity: 0.8;
+}
+@media screen and (max-width: 992px) {
+  .choose_services .col-lg-3.col-md-6.col-sm-6 {
+    margin-bottom: 20px;
+  }
+}
+
+.care_section {
+  background: #f3f6f9;
+}
+.care_section h3 {
+  color: #221b26;
+  font-size: 24px;
+  font-family: "Poppins-ExtraBold";
+  margin-bottom: 20px;
+}
+.care_section h3 span {
+  font-size: 17px;
+  display: block;
+  font-family: "Poppins-Medium";
+  margin-bottom: 10px;
+}
+.care_section p {
+  font-size: 18px;
+  margin: 0px;
+  color: #68696f;
+}
+.about_img {
+  width: 100%;
+  height: auto !important;
+  margin: 40px 0;
+}
+
+.servd_section {
+  background-color: #edf0ff;
+  background-image: url(http://localhost:3000/static/media/servd-bg.6267131….png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.leads {
+  margin-top: 30px;
+}
+.servd_section h4 {
+  font-size: 40px;
+  font-family: "Poppins-ExtraBold";
+  color: #68696f;
+}
+.servd_section p {
+  font-size: 20px;
+  font-family: "Poppins-Medium";
+  margin: 0;
+  color: #68696f;
+}
+.aboutBanner h1,
+.hireBanner .banner-contact h1 {
+  /* background: linear-gradient(to right,#184a88 10%, #87bbe5 50%, #184a88 60%); */
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #0b0b0b;
+  background-clip: text;
+  /* text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite; */
+  display: inline-block;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.heading_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.heading_wrapper:after,
+.heading_wrapper:before {
+  content: "";
+  display: inline-flex;
+  width: 32px;
+  height: 2px;
+  background: #2b5e9f;
+  border-radius: 5px;
+}
+.heading_wrapper span {
+  font-size: 16px;
+  line-height: 34px;
+  color: #2b5e9f;
+  font-family: "Poppins-SemiBold";
+  margin: 0 16px;
+}
+
+.why_choose_section h2 {
+  color: #221b26;
+  font-size: 32px;
+  font-family: "Poppins-ExtraBold";
+  margin: 8px 0 28px;
+}
+
+.why_choose_section p {
+  font-family: "Poppins-Medium";
+  margin: 20px 0 30px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #68696f;
+}
+/************************/
+.whyus_heading {
+  margin-bottom: 20px;
+}
+
+.whyus_main_text {
+  text-align: center;
+  margin-top: 146px;
+  font-family: "Poppins-ExtraBold";
+  font-size: 64px;
+}

@@ -1,0 +1,59 @@
+
+  .paragraph{
+    color: #fff;
+    text-align: center;
+    font-size: 25px !important;
+ }
+ .section-ul{
+    color: #fff;
+    text-align: center;
+ }
+
+.technologiesIMG {
+    display: flex;
+    min-height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.technologiesIMG  img {
+    margin-left: auto;
+}
+.technologiesIMG.leftIMG img {
+    margin-left: 0;
+}
+ .serviceHeading{
+    font-size: 55px;
+    line-height: 74px;
+  }
+  .serviceHeadingLeft{
+    font-size: 55px;
+    line-height: 74px;
+     text-align: center;
+     color: #fff;
+  }
+  .serviceInnerBanner1{
+    background-color: #114c85;
+    color: #fff;
+  }
+.listingWrapper li {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+} 
+.listingWrapper li::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: block;
+    background-color: #114c85;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+} 
+ .serviceInnerBanner-right{
+    background-color: #c3d8e7;
+ }
+/* #c3d8e7 */

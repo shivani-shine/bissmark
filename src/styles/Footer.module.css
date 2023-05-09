@@ -1,0 +1,145 @@
+.foo_image {
+  position: relative;
+  /* background-image: url(../assets/images/footer-bg.jpg); */
+  height: auto;
+  background-color: #454680;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  color: #fff;
+}
+.ft_logo_wrapper span {
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  font-family: "Poppins-Bold";
+}
+
+.collapse:not(.show) {
+  display: block !important;
+}
+
+.ft_logo_wrapper {
+  width: 23%;
+}
+.ft_logo_wrapper span.opacity_span {
+  font-family: "Poppins-Medium";
+  opacity: 0.9;
+}
+.ft_logo_wrapper li {
+  margin-bottom: 15px;
+}
+.ft_logo_wrapper ul {
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+.upper_icon {
+  bottom: 60px;
+  right: 126px;
+  position: absolute;
+}
+.product_data{
+  display: block !important;
+}
+
+.foo_image .product_list a {
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: none;
+  font-family: "Poppins-Medium";
+  color: #ffffff;
+}
+.product_list span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.list_1 {
+  display: inline-block;
+}
+.right_align {
+  float: right;
+}
+.row_wrapper{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+@media screen and (max-width: 575px ){
+  .row_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Poppins-Medium';
+  }
+  .product_detail{
+    width: auto !important;
+    padding-left: 20px !important ;
+  }
+  .ft_logo_wrapper {
+    width: auto;
+  }
+  }
+.product_detail{
+  width: 25%;
+  padding-left: 70px;
+}
+.product_detail .product_list ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.foo_image .product_detail h4 a {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins-Bold";
+  margin: 0 0 25px;
+}
+
+.product_detail .product_list i {
+  padding: 3px;
+  font-size: 18px;
+  opacity: 0.6;
+}
+.foo_image .product_list a:hover,
+.foo_image .product_list a:hover i {
+  opacity: 1;
+}
+.foo_image .foot_info {
+  position: relative;
+  margin-top: 34px;
+  color: white;
+}
+.foo_image .foot_info p{
+  text-align: center;
+  font-size: 10px;
+  margin: 0;
+  padding: 0 0 20px;
+}
+.foo_image .foot_info span {
+  padding: 3px;
+}
+.foo_image .foot_info p{
+  text-align: center;
+}
+.Follow ul li a {
+  margin-right: 10px;
+  display: inline-block;
+}
+footer .collapse {
+  display: block !important;
+}
+/* @media screen and (min-width: 375px ) {
+  .foo_image{
+    width: 500px;
+  }
+} */
+@media screen and (max-width: 767px ){
+  .product_detail{
+    padding-left: 30px;
+  }
+}

@@ -1,0 +1,148 @@
+.career_section {
+    margin-bottom: 30px;
+  }
+  .content_box {
+    border-bottom: 2px solid #f2f2f2;
+    padding: 30px 20px;
+  }
+
+  .content_box h3{
+    font-size: 19px;
+    font-family: "Poppins-bold";
+    color: #68696F;
+  }
+
+  .content_box p{
+    color: #68696F;
+  }
+  .content_box:first-child {
+    border-top: 2px solid #f2f2f2;
+  }
+  .sub_title {
+    font-size: 19px;
+    font-family: "Poppins-Bold";
+    margin: 0 0 7px;
+  }
+
+  .desc {
+    margin: 0;
+    line-height: normal;
+    font-family: "Poppins-Medium";
+  }
+  .nxt {
+    font-size: 16px;
+    line-height: 48px;
+    color: #2b5e9f;
+    min-width: 175px;
+    background-color: #fff;
+    border: 1px solid #2b5e9f;
+    padding: 0 25px 0;
+    position: relative;
+    box-shadow: 0px 8px 20px rgb(0 0 0 / 20%);
+    border-radius: 4px;
+    margin-left: auto;
+    cursor: pointer;
+  }
+  .career_section {
+    background: #f6fcff;
+  }
+  .career_section .detailed_web_sol {
+    background: #fff;
+  }
+
+  .aboutBanner h1 {
+    font-size: 64px;
+    font-family: "Poppins-ExtraBold";
+    margin: 0 0 20px;
+}
+
+.aboutBanner p {
+    font-family: "Poppins-Regular";
+    color: #68696F;
+}
+.aboutBanner p {
+  font-family: "Poppins-Regular";
+  color: #68696F;
+}
+
+@media screen and (max-width: 1200px) { 
+  .aboutBanner h1 {
+      font-size: 54px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .aboutBanner .col-sm-4.d-xl-none.d-lg-block {
+      display: none;
+  }
+}
+@media screen and (max-width: 767px) { 
+  .aboutBanner h1 {
+      font-size: 35px;
+      line-height: 40px;
+  }
+}
+
+.aboutBanner h1, .hireBanner .banner-contact h1 {
+  background: linear-gradient(to right,#184a88 10%, #87bbe5 50%, #184a88 60%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+  display: inline-block;
+}
+@keyframes textclip {
+to {
+  background-position: 200% center;
+}
+}
+
+.heading {
+  color: #221b26;
+  font-size: 32px;
+  font-family: "Poppins-ExtraBold";
+  margin: 7px 0 10px;
+}
+
+.sub_heading {
+  font-family: "Poppins-Medium";
+  margin: 20px 0 30px;
+  color: #68696F;
+}
+
+
+.choose_services .detailed_web_sol {
+  border: 1px solid rgba(44, 64, 88, 0.05);
+  padding: 25px;
+  min-height: 100%;
+}
+.choose_services .detailed_web_sol h4 {
+  font-size: 18px;
+  color: #221B26;
+  font-family: 'Poppins-Bold';
+}
+.choose_services .detailed_web_sol p {
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
+.choose_services .detailed_web_sol img {
+  max-width: 60px;
+  max-height: 60px;
+  margin-bottom: 22px;
+}
+@media screen and (max-width: 992px) { 
+  .choose_services .col-lg-3.col-md-6.col-sm-6 {
+      margin-bottom: 20px;
+  }
+}
+
+.careerImg{
+  height: auto;
+  width: 100%;
+}

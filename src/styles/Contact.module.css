@@ -1,0 +1,171 @@
+.office_map iframe {
+    width: 100%;
+    min-height: 80vh;
+}
+.office_map {
+  border-top: 7px solid #184a88;
+  border-bottom: 7px solid #184a88;
+}
+/* .contact_Banner {
+  background: url(../assets/images/contBg.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+  /* min-height: 80vh; 
+} */
+  .contact_form_section .submit_buttom {
+    background: #184a88;
+    border: 1px solid #ffffff;
+    margin: auto;
+    max-width: 200px;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 10px 50px;
+  }
+  .contact_form_section .submit_buttom:hover {
+    opacity: 0.8;
+  }
+  .form_control {
+    box-shadow: none;
+    width: 100%;
+    resize: none;
+    height: 50px !important;
+    padding: 0 15px;
+    margin: 0 0 30px 0;
+    color: #172b43;
+    font-size: 16px;
+    outline: 0;
+    background: #fff;
+    -webkit-border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0px;
+  
+}
+.form_control::-webkit-outer-spin-button,
+.form_control::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.form_control {
+  -moz-appearance: textfield;
+}
+
+.form_control.textarea {
+  height: 150px !important ;
+  padding-top: 13px;
+}
+.get_touch h4, .contact_form_section h3 {
+    font-size: 32px;
+    color: #221B26;
+    font-family: 'Poppins-Bold';
+}
+.contact_box {
+  padding: 0px 0 15px 50px;
+  border-bottom: 1px solid #f9f9f9;
+  position: relative;
+  margin-bottom: 20px;
+}
+.contact_box h2 {
+  font-size: 20px;
+  color: #221B26;
+  font-family: "Poppins-Medium";
+  margin: 0 0 8px;
+}
+.contact_box div {
+    font-size: 15px;
+    color: #858585;
+}
+.contact_box div a {
+    color: #858585;
+}
+.contact_box div a:hover {
+    color: #184a88;
+}
+.contact_box .icon {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+.contact_box .icon svg {
+  width: 30px;
+}
+.form-group, .contact_form_label {
+  position: relative;
+}
+.errormsg {
+  color: #ff0000;
+  font-size: 12px !important;
+  position: absolute;
+  bottom: 10px;
+  margin: 0!important;
+  line-height: normal !important;
+}
+.contact_us_title{
+  color: #454680;
+  font-size: 38px;
+
+}
+.log_btn{
+  background: transparent;
+    color: #454680;
+    border: 1px solid;
+    font-size: 18px;
+}
+.log_btn:hover{
+background-color: #454680;
+    border-color: #454680;
+}
+@media screen and (max-width: 767px) { 
+  .get_touch h4, .contact_form_section h3 {
+    font-size: 25px;
+  }
+  .form-control {
+    margin: 0 0 15px 0;
+  }
+  .log_btn{
+    font-size: 14px;
+  }
+}
+
+
+.BlogBanner h1 {
+  font-family: "Poppins-ExtraBold";
+  font-size: 64px;
+  line-height: 84px;
+  color: #2b5e9f;
+  margin: 0 0 30px;
+}
+
+.BlogBanner p {
+  font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    font-family: "Poppins-Regular";
+    color: #68696F;
+}
+@media screen and (min-width: 1025px) { 
+  .BlogBanner {
+    /* min-height: 80vh; */
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .BlogBanner h1 {
+      font-size: 50px;
+      line-height: 60px;
+      margin: 0 0 20px;
+  }
+}
+@media screen and (max-width: 480px) { 
+  .BlogBanner h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .log_btn{
+  font-size: 14px;
+  }
+}
+

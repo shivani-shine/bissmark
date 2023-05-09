@@ -1,0 +1,129 @@
+
+.another_quote h1 {
+    font-size: 20px;
+    margin: 8px 0 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Poppins-Regular";
+    color: #68696F;
+  }
+  .another_quote {
+    position: relative;
+  }
+  .another_quote .close_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+  }
+  .another_quote .close_btn svg{
+    max-width: 25px;
+    max-height: 25px;
+  }
+  .sidebar_contact.active {
+    right: 0;
+  }
+  .sidebar_contact {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    right: -350px;
+    width: 350px;
+    padding: 20px;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0 0 11px 6px rgb(24 74 136 / 10%);
+    box-sizing: border-box;
+    transition: 0.5s;
+    z-index: 11111;
+  }
+  .Free_Quote .col_sm_12 {
+    max-height: calc(100vh - 78px);
+      overflow-y: auto;
+      overflow-x: hidden;
+  }
+  .Free_Quote .col_sm_12::-webkit-scrollbar {
+    width: 4px;
+  }
+  .Free_Quote .col_sm_12::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .Free_Quote .col_sm_12::-webkit-scrollbar-thumb {
+    background: #4e6a8d; 
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  .Free_Quote .col_sm_12::-webkit-scrollbar-thumb:hover {
+    background: #184a88; 
+  }
+  .fileUplode {
+    position: relative;
+    width: 282px;
+    height: 50px;
+    padding: 13px 15px;
+    margin: 0 0 15px 0;
+    color: #ababab;
+    font-size: 16px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    background: #ffffff;
+}
+.form_group  #myfile {
+position: absolute;
+opacity: 0;
+left: 0;
+top: 0;
+bottom: 0;
+right: 0;
+}
+#myform .submit_btn {
+    border-radius: 0;
+    height: 50px;
+    padding: 14px 31px;
+    text-transform: uppercase;
+    box-shadow: none;
+    color: #fff;
+    background: #184a88;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.errormsg {
+  color: #ff0000;
+  position: relative;
+  bottom: 25px;
+  font-size: 12px !important;
+  margin: 0!important;
+  line-height: normal !important;
+}
+
+.form_control  {
+  box-shadow: none;
+  resize: none;
+  height: 50px !important;
+  padding: 0 15px;
+  margin: 0 0 30px 0;
+  color: #172b43;
+  font-size: 16px;
+  outline: 0;
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.form_control ::-webkit-outer-spin-button,
+.form_control ::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+
+.form_control.textarea {
+  height: 150px !important;
+  padding-top: 13px;
+  width: 282px;
+}

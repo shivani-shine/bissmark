@@ -1,0 +1,70 @@
+#wrapper.hireBanner {
+    background-image: none;
+    padding: 0;
+  }
+  section.InnerBanner {
+    padding: 0;
+    border-bottom: 1px solid rgba(52, 66, 104, 0.07);
+  }
+  .hireBanner .banner_contact h1 {
+    font-size: 55px;
+    line-height: 74px;
+    font-family: "Poppins-ExtraBold";
+  }
+  .hireBanner .banner_contact p{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 26px  0 40px;
+    font-family: "Poppins-Regular";
+  }
+  .appBanner .p3 {
+    background-image: url("/assets/images/hire/app.png");
+  }
+  .InnerBanner #contaianer div {
+    height: 100%;
+  }
+  .InnerBanner #contaianer #wrapper {
+    background: none;
+  }
+  .hireBanner {
+    background: #f2f2f2;
+  }
+  @media screen and (max-width: 1200px) {
+    .hireBanner .banner_contact h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .hireBanner .banner_contact h1 {
+        font-size: 35px;
+    }
+  }
+
+  .banner_form {
+    background: #E8EFFF;
+    padding: 30px;
+  }
+  .banner_form h3 {
+    font-size: 20px;
+    margin: 10px 0 0;  
+  } 
+  .hireBanner .banner_contact h1 {
+    background: linear-gradient(to right,#184a88 10%, #87bbe5 50%, #184a88 60%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 1.5s linear infinite;
+    display: inline-block;
+  }
+ 
+  @keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
