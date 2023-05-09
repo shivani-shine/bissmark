@@ -8,7 +8,7 @@ const Quoteform = () => {
   const dispatch = useDispatch();
   const initialValues = { name: "", email: "", number:"", budget:"", country:"", skypewhatsapp:"", description:"" };
   const [formValues, setFormValues] = useState(initialValues);
-  const [selectedFile, setSelectedFile] = useState(null);
+  const [selectedFile, setSelectedFile] = useState("null");
   const [formErrors, setFormErrors] = useState<any>({});
   const [successalert, setSuccessAlert] = useState(false);
 
