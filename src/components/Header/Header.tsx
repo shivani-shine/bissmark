@@ -5,7 +5,6 @@ import Image from "next/image";
 import { hireDeveloper } from "Common/constants";
 import MobileHeader from "./MobileHeader";
 import Link from "next/link";
-import moment from "moment";
 const Header = () => {
   const subNavitemActive = [
     {
