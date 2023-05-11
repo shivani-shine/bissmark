@@ -1,5 +1,5 @@
 import OurProcess from '../../components/ourProcess/OurProcess'
-import  IProcess from "./ourProcess.type"
+import  {IProcess} from "./ourProcess.type"
 import { GetStaticProps } from 'next'
 
 const index = () => {

@@ -10,7 +10,6 @@ const index = () => {
 }
 
 export const getStaticProps = () => {
-  console.log("vijay")
   const title: string = 'Contact Us';
   const desc: string = 'Contact Us';
   const keywords: string = 'contact us';

@@ -7,7 +7,7 @@ import { useRouter } from 'next/router';
 
 import Footer from 'Components/Footer/Footer';
 import Header from 'Components/Header/Header';
-import ILayout from './layout.type';
+import {ILayout} from './layout.type';
 
 export default function Layout({ children, title, desc, keywords }: ILayout) {
   return (
