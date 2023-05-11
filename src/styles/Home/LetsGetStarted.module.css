@@ -31,8 +31,12 @@
 }
 @media screen and (min-width: 390px) { 
   .gold_plan_span {
-    font-size: 5px;
+    font-size: 12px;
     margin: 0px 0px;
+  }
+  .gold_plan{
+    font-size: 15px;
+    color: red;
   }
 }
 .platinum_plan{
