@@ -29,6 +29,12 @@
   text-decoration: line-through;
   font-size: 26px; color: black; margin: 0px 8px;
 }
+@media screen and (min-width: 390px) { 
+  .gold_plan_span {
+    font-size: 16px;
+    margin: 0px 4px;
+  }
+}
 .platinum_plan{
   font-size: 30px;
   color: #D2AF26;
