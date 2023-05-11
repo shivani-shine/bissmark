@@ -166,7 +166,7 @@ const Formone = () => {
           </Form.Group>
         </Form>
       </div>
-      <Link href="/step2"><Button variant="info" className={formOneStyle.continue_button}>Continue</Button></Link>
+      <Link href="/"><Button variant="info" className={formOneStyle.continue_button}>Continue</Button></Link>
       <br />
     </div>
   );

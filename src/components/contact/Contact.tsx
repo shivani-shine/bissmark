@@ -1,12 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import aboutimg1 from "Assets/images/about/office-img-1.png";
-import Delivery from "Assets/images/about/Delivery.png";
-import Team from "Assets/images/about/team.png";
-import Strategies from "Assets/images/about/Strategies.png";
-import Transparency from "Assets/images/about/Transparency.png";
-import team from "Assets/images/about/team.jpg";
 import styles from 'Styles/Contact.module.css';
-import CountUp from "react-countup";
 import Emailsvg from "Assets/Svg/email";
 import Phonesvg from "Assets/Svg/phone";
 import Locationsvg from "Assets/Svg/Location";
@@ -100,7 +93,7 @@ const Contact = () => {
                   </div>
                   <h2>Location</h2>
                   <div>
-                    Usa
+                  1546 E Dava Dr, Tempe, AZ 85283
                   </div>
                 </div>
                 <div className={`${styles.contact_box} ${styles.contactPhone}`}>
@@ -109,7 +102,7 @@ const Contact = () => {
                   </div>
                   <h2>Phone</h2>
                   <div>
-                    <a href="tel:+91 89772 36864">+121345</a>
+                    <a href="tel:+91 89772 36864">+1-202-555-0128</a>
                   </div>
                 </div>
                 <div className={styles.contact_box}>
@@ -119,7 +112,7 @@ const Contact = () => {
                   <h2>Email</h2>
                   <div>
                     <a href="mailto: kamal.p@pyramidions.com">
-                      career@trademark.com
+                    biss@marks.com
                     </a>
                   </div>
                 </div>
@@ -232,10 +225,9 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
-      {/* <div className={`${styles.office_card2} ${styles.office_map}`}>
+      <div className={`${styles.office_card2} ${styles.office_map}`}>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3430.3266986976264!2d76.69300321474545!3d30.709214781645397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee8500746ffd%3A0xb8cd610a9c6e9d4d!2sSPINEOR!5e0!3m2!1sen!2sin!4v1594212732524!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29865.903902799717!2d-111.93346403479934!3d33.345106491277306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0650465803e5%3A0xae3cb9fbdc66ab4b!2s1546%20E%20Dava%20Dr%2C%20Tempe%2C%20AZ%2085283%2C%20USA!5e0!3m2!1sen!2sin!4v1683801896186!5m2!1sen!2sin"
           height={200}
           frameBorder={0}
           style={{ border: 0 }}
@@ -243,9 +235,11 @@ const Contact = () => {
           aria-hidden="false"
           tabIndex={0}
         />
-      </div> */}
+      </div>
     </div>
   );
 };
 
 export default Contact;
+
+

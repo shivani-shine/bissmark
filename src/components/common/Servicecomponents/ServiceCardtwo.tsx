@@ -24,7 +24,7 @@ const ServicesCardtwo = ({ id, title, imgSrc, body, url }:any) => {
           </div>
           <div className={OurServiceStyle.Our_developers_build_not}>
             <p>{body}</p>
-            <Link href={`service/${url}`} className={OurServiceStyle.readMore}>
+            <Link href="" className={OurServiceStyle.readMore}>
               Read more 
               <FrontEnd />
             </Link>

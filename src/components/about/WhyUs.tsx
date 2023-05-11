@@ -5,16 +5,13 @@ const WhyUs = () => {
   return (
     <div>
       <div className={`${styles.aboutBanner}`}>
-        {/* <section > */}
         <div className="container">
           <div className="row">
-          {/* <div className="col-sm-12 col-md-12 col-lg-12"> */}
             <h1 className={styles.whyus_main_text}>Why Us ?</h1>
             <div style={{ textAlign:'center'}}>
             <button className={styles.btn_online}>Everything Online!</button>
             <button className={styles.start_btn}>START NOW!</button>
             </div>
-            {/* </div> */}
           </div>
         </div>
       </div>
@@ -69,20 +66,15 @@ const WhyUs = () => {
 
       <section className={styles.why_choose_section}>
         <div className="container">
-          {/* <div className="text-center">
-            <h2 className="heading">
-              Here are some reasons why our firm stands out from the rest:
-            </h2>
-          </div> */}
           <div className={`row ${styles.choose_services}`}>
             <div
               className={`col-lg-3 col-md-6 col-sm-6 ${styles.whyus_heading}`}
             >
               <div className={`${styles.detailed_web_sol}`}>
-              <span className={`${styles.numbers_style}`}>
-                01.
+              {/* <span className={`${styles.numbers_style}`}>
+                01. */}
                   {/* <Image src={Delivery} alt="delivery" /> */}
-                </span>
+                {/* </span> */}
                 <h4>Comprehensive services</h4>
                 <p>
                   Our team has done thorough trademark searches and filing
@@ -100,10 +92,10 @@ const WhyUs = () => {
               className={`col-lg-3 col-md-6 col-sm-6 ${styles.whyus_heading}`}
             >
               <div className={`${styles.detailed_web_sol}`}>
-              <span className={`${styles.numbers_style}`}>
-                02.
+              {/* <span className={`${styles.numbers_style}`}>
+                02. */}
                   {/* <Image src={Team} alt="team" /> */}
-                </span>
+                {/* </span> */}
                 <h4>Experience and Expertise</h4>
                 <p>
                   The Bissmarks has a team of highly qualified and years of
@@ -117,10 +109,6 @@ const WhyUs = () => {
               className={`col-lg-3 col-md-6 col-sm-6 ${styles.whyus_heading}`}
             >
               <div className={`${styles.detailed_web_sol}`}>
-              <span className={`${styles.numbers_style}`}>
-                03.
-                  {/* <Image src={Strategies} alt="strategies" /> */}
-                </span>
                 <h4>Effective and Timely service</h4>
                 <p>
                   Time is the key element in each process, especially in
@@ -136,10 +124,6 @@ const WhyUs = () => {
               className={`col-lg-3 col-md-6 col-sm-6 ${styles.whyus_heading}`}
             >
               <div className={`${styles.detailed_web_sol}`}>
-              <span className={`${styles.numbers_style}`}>
-                04.
-                  {/* <Image src={Transparency} alt="transparency" /> */}
-                </span>
                 <h4>Personalized approach</h4>
                 <p>
                   The Bissmarks team has adopted the personalized approach,
@@ -155,10 +139,6 @@ const WhyUs = () => {
               className={`col-lg-3 col-md-6 col-sm-6 ${styles.whyus_heading}`}
             >
               <div className={`${styles.detailed_web_sol}`}>
-                <span className={`${styles.numbers_style}`}>
-                  {/* <Image src={Strategies} alt="strategies" /> */}
-                  05.
-                </span>
                 <h4>Client’s Satisfaction</h4>
                 <p>
                   Bissmarks track record speaks for itself. We have a long list
@@ -175,10 +155,6 @@ const WhyUs = () => {
               className={`col-lg-3 col-md-6 col-sm-6 ${styles.whyus_heading}`}
             >
               <div className={`${styles.detailed_web_sol}`}>
-                <span className={`${styles.numbers_style}`}>
-                  {/* <Image src={Strategies} alt="strategies" /> */}
-                  06.
-                </span>
                 <h4>Transparency and Communication</h4>
                 <p>
                   Bissmarks commits to transparency with its clients. The firm

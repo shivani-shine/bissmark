@@ -15,10 +15,6 @@ const OurService = () => {
             <span>WORKING PROCESS</span>
           </div>
           <h2 className={OurServiceStyle.heading}>HOW IT WORKS</h2>
-          {/* <p className={OurServiceStyle.sub_heading}>
-            Open the path to great business opportunities and grow your business
-            with our web designing and development services.
-          </p> */}
         </div>
         <div className="row">
           {howitwork.map((item) => (

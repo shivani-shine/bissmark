@@ -25,6 +25,10 @@
   font-size: 30px;
   color: red;
 }
+.gold_plan_span{
+  text-decoration: line-through;
+  font-size: 26px; color: black; margin: 0px 8px;
+}
 .platinum_plan{
   font-size: 30px;
   color: #D2AF26;
@@ -174,6 +178,9 @@ background: #3f0dff1f;
   color: #2b5e9f;
   font-family: "Poppins-SemiBold";
   margin: 0 16px;
+}
+.table_txt{
+ font-weight: 600;
 }
 @media screen and ( max-width: 568px){
   .plan_heading{

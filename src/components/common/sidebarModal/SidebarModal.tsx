@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useDispatch } from "react-redux";
-import { sideBarHandlerAction } from "Redux/appActions";
 import styles from 'Styles/Sidebar.module.css'
 
 const Quoteform = () => {
@@ -74,7 +73,7 @@ const Quoteform = () => {
     <div id="idea">
       <div className={styles.another_quote}>
         <h1>Have an idea?</h1>
-        <div className={styles.close_btn} onClick={() => dispatch(sideBarHandlerAction(false))}>
+        <div className={styles.close_btn}>
           <svg
             height={48}
             viewBox="0 0 48 48"

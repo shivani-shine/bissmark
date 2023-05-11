@@ -1,18 +1,12 @@
 import React, { useState } from "react";
-import styles from 'Styles/Header.module.css';
+import styles from "Styles/Header.module.css";
 import logo from "Assets/images/logo.png";
 import Image from "next/image";
-import { sideBarHandlerAction } from "Redux/appActions";
-import { useDispatch } from "react-redux";
-import { NextPage } from "next";
-import { SHOW_SIDEBAR } from "Redux/types";
 import { hireDeveloper } from "Common/constants";
 import MobileHeader from "./MobileHeader";
-import { serviceDeveloper } from "Common/constants";
 import Link from "next/link";
-import IHeader from "./Header.type"
-const Header= () => {
-  const dispatch = useDispatch();
+import moment from "moment";
+const Header = () => {
   const subNavitemActive = [
     {
       id: 1,
@@ -23,12 +17,7 @@ const Header= () => {
       id: 2,
       title: "Our Process",
       url: "/our-process",
-    },
-    // {
-    //   id: 3,
-    //   title: "Careers",
-    //   url: "/career",
-    // },
+    }
   ];
   const [menuItemActive, setMenuItemActive] = useState();
   const [navItemActive, setNavItemActive] = useState(0);
@@ -37,26 +26,46 @@ const Header= () => {
   return (
     <>
       <div>
-        <nav className={`navbar navbar-expand-lg ${styles.main_header} ${styles.desktopview}`}>
+        {/* <div className="container" style={{ paddingRight:'50px', paddingLeft:'10px'}}>
+        <div className={styles.sub_header}>
+          <div className={styles.head_date}>
+            <span className="material-symbols-outlined">pace</span>
+            <p className={styles.data_time_text}>
+              {moment().format("MMM D")}
+              <span> {moment().format("LT")}</span>
+            </p>
+          </div>
+          <div className={styles.info_text}>
+            <p className={styles.mail_para}>
+              <span className="material-symbols-outlined">attach_email</span>
+              info@bissmarks.com
+            </p>
+            <p className={styles.mail_para}>
+              <span className="material-symbols-outlined">attach_email</span>+
+              19052260281
+            </p>
+          </div>
+        </div>
+        </div> */}
+        <nav
+          className={`navbar navbar-expand-lg ${styles.main_header} ${styles.desktopview}`}
+        >
           <div className="container">
-            {/* <Link href="/" className={styles.navbar_brand}>
-             <Image  className={styles.img} src={logo} alt="logo" /> 
-            </Link> */}
-             <Link href="/">
-             <Image src={logo} className={styles.img} alt="logo" /> 
+            <Link href="/">
+              <Image src={logo} className={styles.img} alt="logo" />
             </Link>
             <div
               className="collapse navbar-collapse"
               id="navbarSupportedContent"
             >
               <ul className={`navbar-nav nav ms-auto ${styles.custom_nav}`}>
-              <li className={styles.hire_dropdown}>
+                <li className={styles.hire_dropdown}>
                   <Link
                     className={
                       navItemActive === 3 ? "link-hover active" : " link-hover"
                     }
                     onMouseOver={() => setNavItemActive(3)}
-                   href="/"
+                    href="/"
                   >
                     Services
                     <i className="fa fa-angle-down" />
@@ -65,12 +74,14 @@ const Header= () => {
                     <div className={styles.hire_dropdown}>
                       {/* <h3>Hire Developers</h3> */}
 
-                      <ul className={`${styles.dropdown_menu_list} ${styles.hire_row}`}>
+                      <ul
+                        className={`${styles.dropdown_menu_list} ${styles.hire_row}`}
+                      >
                         {hireDeveloper.map((item) => {
                           return (
                             <li key={item.id}>
                               <Link
-                               href={item.url}
+                                href={item.url}
                                 className={`${
                                   navItemActive === 3
                                     ? "link-hover active"
@@ -87,7 +98,7 @@ const Header= () => {
                                   // setMenuItemActive(item.id);
                                 }}
                               >
-                                <img src={item.Image} alt="icon"/>
+                                <img src={item.Image} alt="icon" />
                                 {item.title}
                               </Link>
                             </li>
@@ -97,7 +108,7 @@ const Header= () => {
                     </div>
                   </div>
                 </li>
-                <li className={styles.hover_dropdown}>
+                {/* <li className={styles.hover_dropdown}>
                   <Link
                     href="/"
                     className={
@@ -108,31 +119,10 @@ const Header= () => {
                     Free Guides
                     <i className="fa fa-angle-down" />
                   </Link>
-                  {/* <div className={`${styles.customDropdown} ${styles.wwaMenu}`}>
-                    <ul className={styles.dropdown_menu_list}>
-                      {subNavitemActive.map((item) => {
-                        return (
-                          <li key={item.id}>
-                            <Link
-                              href={item.url}
-                             className=
-                             {
-                                menuItemActive1 === item.id ? 
-                               "active-item" 
-                                 : ""
-                               }
-                             onClick={() => setMenuItemActive1(item.id)}
-                               onMouseOver={() => setMenuItemActive1(item.id)}
-                            >
-                              {item.title}
-                            </Link>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  </div> */}
-                </li>
-                <li className={`${styles.hover_dropdown} ${styles.servicesitem}`}>
+                </li> */}
+                <li
+                  className={`${styles.hover_dropdown} ${styles.servicesitem}`}
+                >
                   <Link
                     className={
                       navItemActive === 2 ? "link-hover active" : " link-hover"
@@ -144,18 +134,6 @@ const Header= () => {
                     <i className="fa fa-angle-down" id="whoCaret" />
                   </Link>
                 </li>
-                
-                {/* <li>
-                  <Link
-                    href="/blog"
-                    className={
-                      navItemActive === 4 ? "link-hover active" : " link-hover"
-                    }
-                    onMouseOver={() => setNavItemActive(4)}
-                  >
-                    Blog
-                  </Link>
-                </li> */}
                 <li>
                   <Link
                     href="/contact"
@@ -179,18 +157,14 @@ const Header= () => {
                   </Link>
                 </li>
                 <li>
-                  {/* <button
-                    className={`${styles.Get_Quote} ${styles.toggleButton}`}
-                   onClick={() => dispatch(sideBarHandlerAction(true))}
-                  >
-                    Get a Quote
-                  </button> */}
                 </li>
               </ul>
             </div>
           </div>
         </nav>
-        <MobileHeader /> 
+      </div>
+      <div>
+        <MobileHeader />
       </div>
     </>
   );

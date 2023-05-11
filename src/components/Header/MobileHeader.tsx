@@ -4,21 +4,9 @@ import { hireDeveloper } from "Common/constants";
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/router'
-
- import {
-  appdevList,
-  backendList,
-  blockchainList,
-  dataengineerList,
-  devopsList,
-  frontendList,
-  markettingList,
-  testingList,
-  webcontentList,
-} from "Common/constants";
-  import styles from 'Styles/Header.module.css'
-  import SvgLeftArrow from 'Assets/Svg/Svglogo';
-  import MobileMenuSvg from 'Assets/Svg/MenuSideSvg';
+import styles from 'Styles/Header.module.css'
+import SvgLeftArrow from 'Assets/Svg/Svglogo';
+import MobileMenuSvg from 'Assets/Svg/MenuSideSvg';
   import CloseMenuSvg from 'Assets/Svg/CloseMenuSvg';
 
 

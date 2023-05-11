@@ -26,8 +26,8 @@ const LetsGetStarted = () => {
         <tr className={LetsGetStartedStyle.other_columns}>
           <th className={LetsGetStartedStyle.column_width} style={{ paddingBottom:'46px'}}>Pricing Plans</th>
           <th><div className={LetsGetStartedStyle.basic_plan}>Basic</div><div className={LetsGetStartedStyle.basic_plan}>Free</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
-          <th><div className={LetsGetStartedStyle.gold_plan}>Gold</div><div className={LetsGetStartedStyle.gold_plan}>$99</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
-          <th><div className={LetsGetStartedStyle.platinum_plan}>Platinum</div><div className={LetsGetStartedStyle.platinum_plan}>$199</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
+          <th><div className={LetsGetStartedStyle.gold_plan}>Gold</div><div className={LetsGetStartedStyle.gold_plan}><span className={LetsGetStartedStyle.gold_plan_span}>$199</span>$99</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
+          <th><div className={LetsGetStartedStyle.platinum_plan}>Platinum</div><div className={LetsGetStartedStyle.platinum_plan}><span className={LetsGetStartedStyle.gold_plan_span}>$299</span>$199</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
         </tr>
       </thead>
       <tbody>
@@ -53,7 +53,7 @@ const LetsGetStarted = () => {
           <td>2nd Free Search</td>
           <td><Image
                 className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                src=""
                 alt=""
               /></td>
           <td><Image
@@ -68,10 +68,11 @@ const LetsGetStarted = () => {
               /></td>
         </tr>
         <tr className={LetsGetStartedStyle.other_columns}>
-          <td>Attorney-Led filing</td>
+          <td className={LetsGetStartedStyle.table_txt}>Attorney-Led filing</td>
           <td><Image
                 className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                // src={cross}
+                src=""
                 alt=""
               /></td>
           <td><Image
@@ -89,7 +90,7 @@ const LetsGetStarted = () => {
           <td>Class Addition</td>
           <td><Image
                 className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                src=""
                 alt=""
               /></td>
           <td className={LetsGetStartedStyle.unlimited_text}>Unlimited</td>
@@ -99,17 +100,17 @@ const LetsGetStarted = () => {
           <td>Minor office action</td>
           <td><Image
                 className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                src=""
                 alt=""
               /></td>
           <td><Image
-                className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                className={LetsGetStartedStyle.check_icon}
+                src={ticks}
                 alt=""
               /></td>
           <td><Image
-                className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                className={LetsGetStartedStyle.check_icon}
+                src={ticks}
                 alt=""
               /></td>
         </tr>
@@ -117,17 +118,17 @@ const LetsGetStarted = () => {
           <td>Major office actions</td>
           <td><Image
                 className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                src=""
                 alt=""
               /></td>
           <td><Image
                 className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                src=""
                 alt=""
               /></td>
           <td><Image
                  className={LetsGetStartedStyle.check_icon}
-                src={ticks}
+                 src={ticks}
                 alt=""
               /></td>
         </tr>
@@ -135,12 +136,12 @@ const LetsGetStarted = () => {
           <td>Statement of use</td>
           <td><Image
                 className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                src=""
                 alt=""
               /></td>
           <td><Image
                 className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                src=""
                 alt=""
               /></td>
           <td><Image
@@ -153,7 +154,7 @@ const LetsGetStarted = () => {
           <td>Guidance in Amazon Brand Registry</td>
           <td><Image
                 className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                src=""
                 alt=""
               /></td>
           <td><Image
@@ -171,12 +172,12 @@ const LetsGetStarted = () => {
           <td>Priority processing</td>
           <td><Image
                 className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                src=""
                 alt=""
               /></td>
           <td><Image
                 className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                src=""
                 alt=""
               /></td>
           <td><Image
@@ -189,7 +190,7 @@ const LetsGetStarted = () => {
           <td>Business WhatsApp of dedicated Account manager</td>
           <td><Image
                 className={LetsGetStartedStyle.cross_icon}
-                src={cross}
+                src=""
                 alt=""
               /></td>
           <td><Image

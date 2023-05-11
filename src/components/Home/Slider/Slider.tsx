@@ -1,9 +1,4 @@
 import { useState, useEffect } from "react";
-import heroBanner from "Assets/images/herobanner/herobanner-mobile.png";
-import bannerBg from "Assets/images/herobanner/banner-bg.png";
-import bannerImageOne from "Assets/images/herobanner/images-1.png";
-import bannerImageTwo from "Assets/images/herobanner/images-2.png";
-import bannerImageThree from "Assets/images/herobanner/images-3.png";
 import { useDispatch } from "react-redux";
 import { sideBarHandlerAction } from "Redux/appActions";
 import SliderStyle from "Styles/Home/Slider.module.css";
@@ -50,7 +45,7 @@ const Slider = () => {
                   protected list today
                 </h1>
                 <p>
-                  Attorney-led filing @ $99 only with a free search First time
+                 <span style={{fontWeight:'600'}}>Attorney-led filing</span>@ $99 only with a free search First time
                   at this pricing
                 </p>
                 <button className={SliderStyle.btn_online}>

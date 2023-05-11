@@ -278,3 +278,23 @@
     border-right: 0;
   }
 }
+@media (min-width: 400px) and (max-width: 1024px) {
+  .main_header {
+    position: fixed;
+  }
+}
+/******************************/
+.sub_header{
+  display: flex;
+    justify-content: space-between;
+}
+.data_time_text{
+  
+  font-size: 16px;
+}
+.head_date{
+display: flex;
+}
+.info_text{
+display: flex;
+    column-gap: 88px;}

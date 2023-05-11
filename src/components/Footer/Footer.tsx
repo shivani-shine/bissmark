@@ -93,7 +93,7 @@ const Footer = () => {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      PRODUCTS
+                      COMPANY
                     </a>
                   </h4>
                 </div>
@@ -105,22 +105,10 @@ const Footer = () => {
                 >
                   <ul>
                     <li>
-                      <Link href="/about-us">About US</Link>
+                      <Link href="/why-us">Why us</Link>
                     </li>
                     <li>
-                      <Link href="/our-process">OUR PROCESS</Link>
-                    </li>
-                    {/* <li>
-                      <Link href="/career">CAREERS</Link>
-                    </li> */}
-                    {/* <li>
-                        <Link to="/">CASE STUDIES</Link>
-                      </li> */}
-                    <li>
-                      <Link href="/contact">CONTACT</Link>
-                    </li>
-                    <li>
-                      <Link href="/blog">BLOG</Link>
+                      <Link href="/contact">Contact</Link>
                     </li>
                   </ul>
                 </div>
@@ -148,19 +136,19 @@ const Footer = () => {
                 >
                   <ul className={footerStyles.list_1}>
                     <li>
-                      <a href="/service/backend-developer">Free U.S Trademark</a>
+                      <a href="/">Trademark Filling</a>
                     </li>
                     <li>
-                      <a href="/service/frontend-developer">
-                        Browse Trademark Search
+                      <a href="/">
+                        Comprehensive Search
                       </a>
                     </li>
                     <li>
-                      <a href="/service/web-developer">Browse Logo Trademark</a>
+                      <a href="/">Statement of use</a>
                     </li>
                     <li>
-                      <a href="/service/app-developer">
-                        Browse Daily Filed Trademark
+                      <a href="/">
+                        Response to Trademark office action
                       </a>
                     </li>
                   </ul>
