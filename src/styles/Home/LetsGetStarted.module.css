@@ -29,14 +29,10 @@
   text-decoration: line-through;
   font-size: 26px; color: black; margin: 0px 8px;
 }
-@media screen and (min-width: 390px) { 
+@media screen and (max-width: 390px) { 
   .gold_plan_span {
     font-size: 12px;
     margin: 0px 0px;
-  }
-  .gold_plan{
-    font-size: 15px;
-    color: red;
   }
 }
 .platinum_plan{
@@ -202,9 +198,9 @@ background: #3f0dff1f;
   }
   .basic_plan{
     font-size: 15px;
-    
+    margin: 12px 12px 0px 12px;
   }
-  .gold_plan{
+  .gold_plan, .gold_plan_span{
     font-size: 15px;
    
   }
@@ -216,4 +212,9 @@ background: #3f0dff1f;
     font-size: 20px;
   }
   
+}
+@media (min-width: 600px) and (max-width:912px){
+  .basic_plan{
+    margin: 0px 18px 0px 18px;
+  }
 }
