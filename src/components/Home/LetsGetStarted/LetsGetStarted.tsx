@@ -96,11 +96,7 @@ const LetsGetStarted = () => {
         <tr className={LetsGetStartedStyle.other_columns}>
           <td>Major office actions</td>
           <td></td>
-          <td><Image
-                className={LetsGetStartedStyle.cross_icon}
-                src=""
-                alt=""
-              /></td>
+          <td></td>
           <td><Image
                  className={LetsGetStartedStyle.check_icon}
                  src={ticks}
