@@ -101,7 +101,6 @@ const MobileHeader = () => {
                 {/* <li>
                   <Link href="/"  onClick={()=>setOpenSideBar(false)}>Free Guides</Link>
                 </li> */}
-                {/* Hire Developers */}
                 <li>
                   <Link href="/why-us"  onClick={()=>setOpenSideBar(false)}>Why us</Link>
                 </li>
