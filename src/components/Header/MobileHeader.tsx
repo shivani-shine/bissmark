@@ -71,7 +71,7 @@ const MobileHeader = () => {
                 <li>
                   <Link href="/"  onClick={()=>setOpenSideBar(false)}>Home</Link>
                 </li>
-                <li>
+                {/* <li>
                   <label className="a-label__chevron" htmlFor="item-2"  onClick={()=>setMenuList1(true)}>
                     Services
                   </label>
@@ -92,6 +92,10 @@ const MobileHeader = () => {
                     })}
                     </ul>
                   </div>
+                </li> */}
+                <li>
+                <Link href="/#second-section"  onClick={()=>setOpenSideBar(false)}>Services</Link>
+                 
                 </li>
                 {/* Services Menu */}
                 <li>
