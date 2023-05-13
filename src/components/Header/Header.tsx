@@ -5,6 +5,8 @@ import Image from "next/image";
 import { hireDeveloper } from "Common/constants";
 import MobileHeader from "./MobileHeader";
 import Link from "next/link";
+import moment from "moment";
+
 const Header = () => {
   const subNavitemActive = [
     {
@@ -25,7 +27,7 @@ const Header = () => {
   return (
     <>
       <div>
-        {/* <div className="container" style={{ paddingRight:'50px', paddingLeft:'10px'}}>
+        <div className={`container ${styles.small_header}`} style={{ paddingRight:'50px', paddingLeft:'10px'}}>
         <div className={styles.sub_header}>
           <div className={styles.head_date}>
             <span className="material-symbols-outlined">pace</span>
@@ -35,17 +37,21 @@ const Header = () => {
             </p>
           </div>
           <div className={styles.info_text}>
-            <p className={styles.mail_para}>
-              <span className="material-symbols-outlined">attach_email</span>
-              info@bissmarks.com
-            </p>
-            <p className={styles.mail_para}>
-              <span className="material-symbols-outlined">attach_email</span>+
-              19052260281
+          <div className={styles.head_date}>
+          <span className="material-symbols-outlined">attach_email</span>
+            <p className={styles.data_time_text}>
+            info@bissmarks.com
             </p>
           </div>
+          <div className={styles.head_date}>
+          <span className="material-symbols-outlined">call</span>
+            <p className={styles.data_time_text}>
+            +19052260281
+            </p>
+          </div>
+          </div>
         </div>
-        </div> */}
+        </div>
         <nav
           className={`navbar navbar-expand-lg ${styles.main_header} ${styles.desktopview}`}
         >
@@ -58,22 +64,22 @@ const Header = () => {
               id="navbarSupportedContent"
             >
               <ul className={`navbar-nav nav ms-auto ${styles.custom_nav}`}>
-                <li className={styles.hire_dropdown}>
-                  <Link
+                {/* <li className={styles.hire_dropdown}> */}
+                  {/* <Link
                     className={
                       navItemActive === 3 ? "link-hover active" : " link-hover"
                     }
                     onMouseOver={() => setNavItemActive(3)}
                     href="/"
                   >
-                    Services
+                   Services
                     <i className="fa fa-angle-down" />
                   </Link>
                   <div className={`${styles.customDropdown} ${styles.full_wd}`}>
-                    <div className={styles.hire_dropdown}>
+                    <div className={styles.hire_dropdown}> */}
                       {/* <h3>Hire Developers</h3> */}
 
-                      <ul
+                      {/* <ul
                         className={`${styles.dropdown_menu_list} ${styles.hire_row}`}
                       >
                         {hireDeveloper.map((item) => {
@@ -85,28 +91,28 @@ const Header = () => {
                                   navItemActive === 3
                                     ? "link-hover active"
                                     : " link-hover"
-                                } $
+                                } $ 
                                 //{
                                   // menuItemActive === item.id
                                   //   ? "active-item"
                                   //   : ""
                                // } 
-                                `}
-                                onClick={() => {
-                                  setNavItemActive(3);
+                                // }
+                                // onClick={() => {
+                                //   setNavItemActive(3);
                                   // setMenuItemActive(item.id);
-                                }}
-                              >
-                                <img src={item.Image} alt="icon" />
-                                {item.title}
-                              </Link>
-                            </li>
-                          );
-                        })}
-                      </ul>
-                    </div>
-                  </div>
-                </li>
+                //                 }}
+                //               >
+                //                 <img src={item.Image} alt="icon" />
+                //                 {item.title}
+                //               </Link>
+                //             </li>
+                //           );
+                //         })}
+                //       </ul>
+                //     </div>
+                //   </div>
+                // </li>
                 {/* <li className={styles.hover_dropdown}>
                   <Link
                     href="/"
@@ -119,6 +125,18 @@ const Header = () => {
                     <i className="fa fa-angle-down" />
                   </Link>
                 </li> */}
+                <li
+                  className={`${styles.hover_dropdown} ${styles.servicesitem}`}
+                >
+                  <Link
+                   
+                    href="/#second-section"
+                  >
+                     Services
+                    <i className="fa fa-angle-down" id="whoCaret" />
+                  </Link>
+                </li>
+                 
                 <li
                   className={`${styles.hover_dropdown} ${styles.servicesitem}`}
                 >

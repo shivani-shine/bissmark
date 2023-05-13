@@ -39,11 +39,11 @@ const Footer = () => {
                   </li>
                   <li>
                     <span>Contact Number:</span>{" "}
-                    <span className={footerStyles.opacity_span}>+1-202-555-0128</span>
+                    <span className={footerStyles.opacity_span}>+ 19052260281</span>
                   </li>
                   <li>
                     <span>E-mail:</span>{" "}
-                    <span className={footerStyles.opacity_span}>biss@marks.com</span>
+                    <span className={footerStyles.opacity_span}>info@bissmarks.com</span>
                   </li>
                   <li>
                     <a

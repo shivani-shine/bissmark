@@ -9,12 +9,10 @@ const Faqs = () => {
     <section className={OurServiceStyle.w_c_section}>
     <div className='container'>
     <div className={`${OurServiceStyle.what_we_can_do_for_you} text-center`}>
-    <div className={OurServiceStyle.heading_wrapper}>
-            <span>FAQ's</span>
+    <div className={OurServiceStyle.heading_wrapper} style={{ marginBottom:'30px'}}>
+            <span >FAQ's</span>
           </div>
-          <p className={OurServiceStyle.sub_heading}>
-          Comprehensive & Free Trademark Search FAQs
-          </p>
+          
       <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header>What is Trademark ?</Accordion.Header>

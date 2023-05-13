@@ -2,17 +2,23 @@ import React, { useEffect, useRef, useState } from "react";
 import styles from "Styles/WhyUs.module.css";
 
 const WhyUs = () => {
+ 
   return (
     <div>
       <div className={`${styles.aboutBanner}`}>
         <div className="container">
           <div className="row">
-            <h1 className={styles.whyus_main_text}>Why Us ?</h1>
+          <div className="col-sm-12 col-md-12 col-lg-12">
+            <h1 className={styles.whyus_main_text}>Your Brand Deserves the Best: Choose BISSMARKS for Unmatched Trademark Services!</h1>
+            <p>
+            Protect your Intellectual Property by leading the way in Trademark Registration and Enforcement at Bissmarks. Our attorneys have been providing trademark searching, filing and watch services, since 2011.
+                </p>
             <div style={{ textAlign:'center'}}>
             <button className={styles.btn_online}>Everything Online!</button>
             <button className={styles.start_btn}>START NOW!</button>
             </div>
           </div>
+        </div>
         </div>
       </div>
 

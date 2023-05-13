@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const LetsGetStarted = () => {
   return (
-    <section className={LetsGetStartedStyle.we_need_to}>
+    <section id="second-section" className={LetsGetStartedStyle.we_need_to}>
       <div className={LetsGetStartedStyle.heading_wrapper}>
             <span>Pick Any Plan</span>
           </div>
@@ -23,8 +23,8 @@ const LetsGetStarted = () => {
           <th className={LetsGetStartedStyle.column_width} style={{ paddingBottom:'46px'}}>Pricing Plans</th>
           {/* <th><div className={LetsGetStartedStyle.basic_plan}>Basic</div><div className={LetsGetStartedStyle.basic_plan}>Free</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th> */}
           <th><div className={LetsGetStartedStyle.basic_plan}>Basic<br/>Free</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
-          <th><div className={LetsGetStartedStyle.gold_plan}>Gold</div><div className={LetsGetStartedStyle.gold_plan}><span className={LetsGetStartedStyle.gold_plan_span}>$199</span>$99</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
-          <th><div className={LetsGetStartedStyle.platinum_plan}>Platinum</div><div className={LetsGetStartedStyle.platinum_plan}><span className={LetsGetStartedStyle.gold_plan_span}>$299</span>$199</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
+          <th><div className={LetsGetStartedStyle.gold_plan}>Gold</div><div className={LetsGetStartedStyle.gold_plan}><span className={LetsGetStartedStyle.gold_plan_span}>$249</span>$99</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
+          <th><div className={LetsGetStartedStyle.platinum_plan}>Platinum</div><div className={LetsGetStartedStyle.platinum_plan}><span className={LetsGetStartedStyle.gold_plan_span}>$400</span>$199</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
         </tr>
       </thead>
       <tbody>
@@ -154,6 +154,7 @@ const LetsGetStarted = () => {
         </tr>
       </tbody>
     </Table>
+    <p style={{ fontFamily:"Poppins-Bold", fontSize:'20px'}}><span style={{ color:'red', marginRight:'2px'}}>*</span>Govt fee: $350 /class</p>
     </div>
     </section>
   );

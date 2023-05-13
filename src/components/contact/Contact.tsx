@@ -70,7 +70,9 @@ const Contact = () => {
               <div className="text-section">
                 <h1>Contact US</h1>
                 <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text. 
+                Want to consult about TRADEMARK?
+You are just a click away!! 
+
                 </p>
               </div>
             </div>
@@ -102,7 +104,7 @@ const Contact = () => {
                   </div>
                   <h2>Phone</h2>
                   <div>
-                    <a href="tel:+91 89772 36864">+1-202-555-0128</a>
+                    <a href="tel:+19052260281">+19052260281</a>
                   </div>
                 </div>
                 <div className={styles.contact_box}>
@@ -111,8 +113,8 @@ const Contact = () => {
                   </div>
                   <h2>Email</h2>
                   <div>
-                    <a href="mailto: kamal.p@pyramidions.com">
-                    biss@marks.com
+                    <a href="mailto: info@bissmarks.com">
+                    info@bissmarks.com
                     </a>
                   </div>
                 </div>
@@ -122,7 +124,8 @@ const Contact = () => {
               <div className="contact-form-bg">
                 <form className={`${styles.contact_form} flw`} onSubmit={handleSubmit}>
                   <h3 className={`${styles.contact_us_title} mb-4`}>
-                    We’d love to hear about your feedback!
+                    {/* We’d love to hear about your feedback! */}
+                    Don’t hesitate to reach us, we can provide you a real-time feedback on your new brand or already filed trademark.  
                   </h3>
                   <p className={styles.errormsg}>{successalert==true ? 'Success':''}</p>
                   <div className="row">

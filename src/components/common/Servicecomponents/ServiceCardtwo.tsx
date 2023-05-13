@@ -22,12 +22,12 @@ const ServicesCardtwo = ({ id, title, imgSrc, body, url }:any) => {
               <h3>{title}</h3>
             </div>
           </div>
-          <div className={OurServiceStyle.Our_developers_build_not}>
+          <div className={OurServiceStyle.Our_developers_build_sec}>
             <p>{body}</p>
-            <Link href="" className={OurServiceStyle.readMore}>
+            {/* <Link href="" className={OurServiceStyle.readMore}>
               Read more 
               <FrontEnd />
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

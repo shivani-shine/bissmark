@@ -57,9 +57,9 @@
   padding-top: 13px;
 }
 .get_touch h4, .contact_form_section h3 {
-    font-size: 32px;
+    font-size: 22px;
     color: #221B26;
-    font-family: 'Poppins-Bold';
+    font-family: 'Poppins-Regular';
 }
 .contact_box {
   padding: 0px 0 15px 50px;

@@ -3,6 +3,7 @@ import { useDispatch } from "react-redux";
 import { sideBarHandlerAction } from "Redux/appActions";
 import SliderStyle from "Styles/Home/Slider.module.css";
 import Image from "next/image";
+import LetsGetStarted from "../LetsGetStarted/LetsGetStarted";
 
 const Slider = () => {
   const [isClient, setIsClient] = useState(false);
@@ -45,13 +46,13 @@ const Slider = () => {
                   protected list today
                 </h1>
                 <p>
-                 <span style={{fontWeight:'600'}}>Attorney-led filing</span>@ $99 only with a free search First time
-                  at this pricing
+                 <span style={{fontWeight:'600'}}>Attorney-led filing@ $99 only with a free search</span><br/> 'First time
+                  at this pricing'
                 </p>
                 <button className={SliderStyle.btn_online}>
                   Everything Online!
                 </button>
-                <button className={SliderStyle.start_btn}>START NOW!</button>
+                <a href="#second-section"> <button className={SliderStyle.start_btn} > START NOW!</button></a>
               </div>
             </div>
           </div>

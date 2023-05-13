@@ -1,5 +1,5 @@
 .aboutBanner h1 {
-  font-size: 64px;
+  font-size: 38px;
   font-family: "Poppins-ExtraBold";
   /* margin: 0 0 20px; */
 }
@@ -10,7 +10,9 @@
 }
 .aboutBanner p {
   font-family: "Poppins-Regular";
-  color: #68696f;
+  color: #000000;
+  margin: 12px;
+  text-align: center;
 }
 
 #myVideo {
@@ -19,6 +21,7 @@
 @media screen and (max-width: 1200px) {
   .aboutBanner h1 {
     font-size: 54px;
+    margin-top: 118px;
   }
 }
 @media screen and (max-width: 992px) {
@@ -28,9 +31,11 @@
 }
 @media screen and (max-width: 767px) {
   .aboutBanner h1 {
-    font-size: 35px;
+    font-size: 25px;
     line-height: 40px;
+    margin-top: 108px;
   }
+  
 }
 
 .welcome_section {
@@ -109,6 +114,7 @@
   .choose_services .col-lg-3.col-md-6.col-sm-6 {
     margin-bottom: 20px;
   }
+ 
 }
 
 .care_section {
@@ -223,7 +229,8 @@
 
 .whyus_main_text {
   text-align: center;
-  margin-top: 146px;
+  margin-top: 138px;
   font-family: "Poppins-ExtraBold";
   font-size: 64px;
 }
+
