@@ -98,9 +98,9 @@ const MobileHeader = () => {
                  
                 </li>
                 {/* Services Menu */}
-                <li>
+                {/* <li>
                   <Link href="/"  onClick={()=>setOpenSideBar(false)}>Free Guides</Link>
-                </li>
+                </li> */}
                 {/* Hire Developers */}
                 <li>
                   <Link href="/why-us"  onClick={()=>setOpenSideBar(false)}>Why us</Link>
