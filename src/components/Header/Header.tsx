@@ -6,6 +6,7 @@ import { hireDeveloper } from "Common/constants";
 import MobileHeader from "./MobileHeader";
 import Link from "next/link";
 import whatsapp from "../../assets/images/whatsapp.png";
+import gmail from "../../assets/images/gmail.png";
 
 const Header = () => {
   const subNavitemActive = [
@@ -33,7 +34,7 @@ const Header = () => {
           </div>
           <div className={styles.info_text}>
           <div className={styles.head_date}>
-          {/* <span className="material-symbols-outlined">attach_email</span> */}
+          <Image src={gmail} alt={""} />
             <p className={styles.data_time_text}>
             info@bissmarks.com
             </p>
