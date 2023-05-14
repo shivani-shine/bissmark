@@ -23,8 +23,8 @@ const LetsGetStarted = () => {
           <th className={LetsGetStartedStyle.column_width} style={{ paddingBottom:'46px'}}>Pricing Plans</th>
           {/* <th><div className={LetsGetStartedStyle.basic_plan}>Basic</div><div className={LetsGetStartedStyle.basic_plan}>Free</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th> */}
           <th><div className={LetsGetStartedStyle.basic_plan}>Basic<br/>Free</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
-          <th><div className={LetsGetStartedStyle.gold_plan}>Gold</div><div className={LetsGetStartedStyle.gold_plan}><span className={LetsGetStartedStyle.gold_plan_span}>$249</span>$99</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
-          <th><div className={LetsGetStartedStyle.platinum_plan}>Platinum</div><div className={LetsGetStartedStyle.platinum_plan}><span className={LetsGetStartedStyle.gold_plan_span}>$400</span>$199</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
+          <th><div className={LetsGetStartedStyle.gold_plan}>Gold</div><div className={LetsGetStartedStyle.gold_plan}><span className={LetsGetStartedStyle.gold_plan_span}>$249</span>$99</div><div className={LetsGetStartedStyle.free_govt}>+ Govt Fee</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
+          <th><div className={LetsGetStartedStyle.platinum_plan}>Platinum</div><div className={LetsGetStartedStyle.platinum_plan}><span className={LetsGetStartedStyle.gold_plan_span}>$400</span>$199</div><div className={LetsGetStartedStyle.free_govt}>+ Govt Fee</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
         </tr>
       </thead>
       <tbody>

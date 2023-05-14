@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "Styles/Home/Testimonials.module.css";
+import Image from 'next/image';
+import profile from '../../../assets/images/profile.png'
 
 const Testimonials = () => {
   var settings = {
@@ -31,8 +33,8 @@ const Testimonials = () => {
   };
   return (
     <section className={styles.testimonials_section}>
-      <div className='container'>
-        <div className='row'>
+      <div className="container">
+        <div className="row">
           <div className={styles.heading_wrapper}>
             <span>TESTIMONIALS</span>
           </div>
@@ -43,88 +45,177 @@ const Testimonials = () => {
           </div>
 
           <div className={styles.tsmnl_carousel}>
-            <Slider  {...settings}>
-            <div className={styles.item}>
-                <div className={styles.carousel_item}>
-                  <div className={styles.reviews_item_header}>
-                    <div className={styles.reviews_item_img}>
-                      <img
-                        data-src="https://pathsoft.kovalweb.com/full/wp-content/uploads/2021/05/auth-img-1.jpg"
-                        className="lazy"
-                        src="https://pathsoft.kovalweb.com/full/wp-content/uploads/2021/05/auth-img-1.jpg"
-                        alt = "img"
-                        data-loaded="true"
-                      />
-                    </div>
-                    <div className={styles.reviews_item_info}>
-                      <h3 className={`${styles.reviews_item_name} ${styles.item_heading}`}>
-                        Daniel Rose
-                      </h3>
-                      <div className={styles.reviews_item_position}>
-                        Regular client
-                      </div>
-                    </div>
-                  </div>
-                  <p className={styles.comment}>
-                    Spineor is a highly-skilled team offering top-notch
-                    designing and development services and focuses on customer
-                    requirements. I recommend them to all!
-                  </p>
-                </div>
-              </div>
+            <Slider {...settings}>
+              {/* 1 */}
               <div className={styles.item}>
                 <div className={styles.carousel_item}>
                   <div className={styles.reviews_item_header}>
                     <div className={styles.reviews_item_img}>
-                      <img
-                        data-src="https://pathsoft.kovalweb.com/full/wp-content/uploads/2021/05/auth-img-1.jpg"
+                      <Image
+                        // data-src="../assets/images/profile.png"
                         className="lazy"
-                        src="https://pathsoft.kovalweb.com/full/wp-content/uploads/2021/05/auth-img-1.jpg"
+                        src={profile}
+                        width={50}
+                        height={50}
                         alt="img"
                         data-loaded="true"
                       />
                     </div>
                     <div className={styles.reviews_item_info}>
-                      <h3 className={`${styles.reviews_item_name} ${styles.item_heading}`}>
-                        Neville Christine
+                      <h3
+                        className={`${styles.reviews_item_name} ${styles.item_heading}`}
+                      >
+                        TENTREK
                       </h3>
                       <div className={styles.reviews_item_position}>
-                        Regular client
+                        BC, Canada
                       </div>
                     </div>
                   </div>
                   <p className={styles.comment}>
-                    I am very thankful to Spineor Webservices for building a
-                    fully functional and responsive web app. It is performing
-                    exceptionally well.
+                    Bissmarks team was great to talk to, and simplified what
+                    seemed like a very complicated process for me to do on my
+                    own. I would be a returning customer!
                   </p>
                 </div>
               </div>
+              {/* 2 */}
               <div className={styles.item}>
                 <div className={styles.carousel_item}>
                   <div className={styles.reviews_item_header}>
                     <div className={styles.reviews_item_img}>
-                      <img
-                        data-src="https://pathsoft.kovalweb.com/full/wp-content/uploads/2021/05/auth-img-1.jpg"
+                      <Image
                         className="lazy"
-                        src="https://pathsoft.kovalweb.com/full/wp-content/uploads/2021/05/auth-img-1.jpg"
+                        src={profile}
                         alt="img"
                         data-loaded="true"
                       />
                     </div>
                     <div className={styles.reviews_item_info}>
-                      <h3 className={`${styles.reviews_item_name} ${styles.item_heading}`}>
-                        Ed Samuel
+                      <h3
+                        className={`${styles.reviews_item_name} ${styles.item_heading}`}
+                      >
+                        ELLULAR
                       </h3>
                       <div className={styles.reviews_item_position}>
-                        Regular client
+                      WYOMING, UNITED STATES
                       </div>
                     </div>
                   </div>
                   <p className={styles.comment}>
-                    I am happy to associate with a solution-minded and talented
-                    team of experts for my 10-year-old website. They are doing
-                    an excellent job.
+                  Excellent work, communication was great and the work was delivered very quickly!!
+                  </p>
+                </div>
+              </div>
+              {/* 3 */}
+              <div className={styles.item}>
+                <div className={styles.carousel_item}>
+                  <div className={styles.reviews_item_header}>
+                    <div className={styles.reviews_item_img}>
+                    <Image
+                        className="lazy"
+                        src={profile}
+                        alt="img"
+                        data-loaded="true"
+                      />
+                    </div>
+                    <div className={styles.reviews_item_info}>
+                      <h3
+                        className={`${styles.reviews_item_name} ${styles.item_heading}`}
+                      >
+                        NEWHAZON
+                      </h3>
+                      <div className={styles.reviews_item_position}>
+                      SINGAPORE
+                      </div>
+                    </div>
+                  </div>
+                  <p className={styles.comment}>
+                  Amazing! Bissmarks team has been very patient with all the queries, fast to reply as always. The step to step guide on what to do on USPTO is the best I’ve seen!
+                  </p>
+                </div>
+              </div>
+              {/* 4 */}
+              <div className={styles.item}>
+                <div className={styles.carousel_item}>
+                  <div className={styles.reviews_item_header}>
+                    <div className={styles.reviews_item_img}>
+                    <Image
+                        className="lazy"
+                        src={profile}
+                        alt="img"
+                        data-loaded="true"
+                      />
+                    </div>
+                    <div className={styles.reviews_item_info}>
+                      <h3
+                        className={`${styles.reviews_item_name} ${styles.item_heading}`}
+                      >
+                        BRITMILE
+                      </h3>
+                      <div className={styles.reviews_item_position}>
+                      FLORIDA, UNITED STATES
+                      </div>
+                    </div>
+                  </div>
+                  <p className={styles.comment}>
+                  Very helpful and clear with all the information required. Excellent customer service as well.
+                  </p>
+                </div>
+              </div>
+              {/* 5 */}
+              <div className={styles.item}>
+                <div className={styles.carousel_item}>
+                  <div className={styles.reviews_item_header}>
+                    <div className={styles.reviews_item_img}>
+                    <Image
+                        className="lazy"
+                        src={profile}
+                        alt="img"
+                        data-loaded="true"
+                      />
+                    </div>
+                    <div className={styles.reviews_item_info}>
+                      <h3
+                        className={`${styles.reviews_item_name} ${styles.item_heading}`}
+                      >
+                        DEEPBATH
+                      </h3>
+                      <div className={styles.reviews_item_position}>
+                      UNITED ARAB EMIRATES
+                      </div>
+                    </div>
+                  </div>
+                  <p className={styles.comment}>
+                  My previous order with another big company took one month and after paying all the government fees, my attorney did not respond to my emails. Its been a nightmare for me and raised red flag as it could be someone want to steal my company name.
+                  </p>
+                </div>
+              </div>
+              {/* 6 */}
+              <div className={styles.item}>
+                <div className={styles.carousel_item}>
+                  <div className={styles.reviews_item_header}>
+                    <div className={styles.reviews_item_img}>
+                    <Image
+                        className="lazy"
+                        src={profile}
+                        alt="img"
+                        data-loaded="true"
+                      />
+                    </div>
+                    <div className={styles.reviews_item_info}>
+                      <h3
+                        className={`${styles.reviews_item_name} ${styles.item_heading}`}
+                      >
+                        CHOUSSE
+                      </h3>
+                      <div className={styles.reviews_item_position}>
+                      ISRAEL
+                      </div>
+                    </div>
+                  </div>
+                  <p className={styles.comment}>
+                  The communication with this company was amazing. Very responsive, they did their part very fast. You can see they have a lot of experience and very professional. Will come back!!
                   </p>
                 </div>
               </div>
