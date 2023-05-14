@@ -5,7 +5,7 @@ import Image from "next/image";
 import { hireDeveloper } from "Common/constants";
 import MobileHeader from "./MobileHeader";
 import Link from "next/link";
-import moment from "moment";
+import whatsapp from "../../assets/images/whatsapp.png";
 
 const Header = () => {
   const subNavitemActive = [
@@ -30,21 +30,16 @@ const Header = () => {
         <div className={`container ${styles.small_header}`} style={{ paddingRight:'50px', paddingLeft:'10px'}}>
         <div className={styles.sub_header}>
           <div className={styles.head_date}>
-            <span className="material-symbols-outlined">pace</span>
-            <p className={styles.data_time_text}>
-              {moment().format("MMM D")}
-              <span> {moment().format("LT")}</span>
-            </p>
           </div>
           <div className={styles.info_text}>
           <div className={styles.head_date}>
-          <span className="material-symbols-outlined">attach_email</span>
+          {/* <span className="material-symbols-outlined">attach_email</span> */}
             <p className={styles.data_time_text}>
             info@bissmarks.com
             </p>
           </div>
           <div className={styles.head_date}>
-          <span className="material-symbols-outlined">call</span>
+          <Image src={whatsapp} alt={""} />
             <p className={styles.data_time_text}>
             +19052260281
             </p>

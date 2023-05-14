@@ -20,7 +20,7 @@ const LetsGetStarted = () => {
       <Table striped bordered>
       <thead>
         <tr className={LetsGetStartedStyle.other_columns}>
-          <th className={LetsGetStartedStyle.column_width} style={{ paddingBottom:'46px'}}>Pricing Plans</th>
+          <th className={LetsGetStartedStyle.column_width}><p className={LetsGetStartedStyle.pricing_plans}>Pricing Plans</p></th>
           {/* <th><div className={LetsGetStartedStyle.basic_plan}>Basic</div><div className={LetsGetStartedStyle.basic_plan}>Free</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th> */}
           <th><div className={LetsGetStartedStyle.basic_plan}>Basic<br/>Free</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
           <th><div className={LetsGetStartedStyle.gold_plan}>Gold</div><div className={LetsGetStartedStyle.gold_plan}><span className={LetsGetStartedStyle.gold_plan_span}>$249</span>$99</div><div className={LetsGetStartedStyle.free_govt}>+ Govt Fee</div><Link href="/form"><button className={LetsGetStartedStyle.button_style}>Get Started</button></Link></th>
@@ -154,7 +154,7 @@ const LetsGetStarted = () => {
         </tr>
       </tbody>
     </Table>
-    <p style={{ fontFamily:"Poppins-Bold", fontSize:'20px'}}><span style={{ color:'red', marginRight:'2px'}}>*</span>Govt fee: $350 /class</p>
+    <p style={{ fontFamily:"Poppins-Bold", fontSize:'20px'}}><span style={{ color:'red', marginRight:'2px'}}>*</span>Govt fee: $350 per class</p>
     </div>
     </section>
   );

@@ -9,6 +9,10 @@
 .column_width{
   font-size: 30px;
 }
+.pricing_plans{
+  padding-bottom: 40px;
+  font-size: 30px;
+}
 .lets_get h4 {
   font-size: 36px;
   font-family: "Poppins-ExtraBold";
@@ -19,7 +23,7 @@
 }
 .basic_plan{
   font-size: 30px;
-  
+  padding-bottom: 28px;
 }
 .gold_plan{
   font-size: 30px;
@@ -36,6 +40,10 @@
   .gold_plan_span {
     font-size: 12px;
     margin: 0px 0px;
+  }
+  .pricing_plans{
+    padding-bottom: 16px !important;
+    font-size: 15px !important;
   }
 }
 .platinum_plan{
@@ -201,6 +209,7 @@ background: #3f0dff1f;
   }
   .basic_plan{
     font-size: 15px;
+    padding-bottom: 19px;
     margin: 12px 12px 0px 12px;
   }
   .gold_plan, .gold_plan_span{
@@ -217,7 +226,10 @@ background: #3f0dff1f;
   .free_govt{
     font-size: 12px;
   }
-  
+  .pricing_plans{
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
 }
 @media (min-width: 600px) and (max-width:912px){
   .basic_plan{
