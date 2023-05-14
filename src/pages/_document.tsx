@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
        <Head>
        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
-          <link rel="icon" href="img1.jpeg" />
+          <link rel="icon" href="fav.png" />
         </Head>
       <body>
         <Main />
