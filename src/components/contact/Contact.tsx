@@ -4,7 +4,7 @@ import Emailsvg from "Assets/Svg/email";
 import Phonesvg from "Assets/Svg/phone";
 import Locationsvg from "Assets/Svg/Location";
 import axios from "axios";
-import Contactbg from 'Assets/images/contBg.png'
+import Contactbg from "../../assets/images/contBg.png";
 // const [visible,setvisible]=useState("hello")
 const Contact = () => {
   const initialValues = { name: "", email: "", number:"", subject:"", message:"" };
@@ -95,7 +95,7 @@ You are just a click away!!
                   </div>
                   <h2>Location</h2>
                   <div>
-                  1546 E Dava Dr, Tempe, AZ 85283
+                  442 5th Avenue #2160 Manhattan, NY 10018 United States
                   </div>
                 </div>
                 <div className={`${styles.contact_box} ${styles.contactPhone}`}>
@@ -229,9 +229,7 @@ You are just a click away!!
         </div>
       </section>
       <div className={`${styles.office_card2} ${styles.office_map}`}>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29865.903902799717!2d-111.93346403479934!3d33.345106491277306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b0650465803e5%3A0xae3cb9fbdc66ab4b!2s1546%20E%20Dava%20Dr%2C%20Tempe%2C%20AZ%2085283%2C%20USA!5e0!3m2!1sen!2sin!4v1683801896186!5m2!1sen!2sin"
-          height={200}
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4520864936176!2d-73.98244129999999!3d40.7520804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25900850a937b%3A0x4877bad66bed30b1!2s442%205th%20Ave%20%232160%2C%20New%20York%2C%20NY%2010018%2C%20USA!5e0!3m2!1sen!2sin!4v1685037685490!5m2!1sen!2sin" height={200}
           frameBorder={0}
           style={{ border: 0 }}
           allowFullScreen

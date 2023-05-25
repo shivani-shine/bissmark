@@ -1,8 +1,7 @@
 import React from 'react';
-import Fromone from 'Root/components/Form/formone';
-
+import Formone from 'Root/components/Form/formone';
  
 const Trademarkform=()=>{
-    return <div><Fromone/></div>
+    return <div><Formone/></div>
 };
 export default Trademarkform;

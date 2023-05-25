@@ -33,7 +33,7 @@ const Footer = () => {
                   <li>
                     <span>Location:</span>{" "}
                     <span className={footerStyles.opacity_span}>
-                    1546 E Dava Dr, Tempe, AZ 85283
+                    442 5th Avenue #2160 Manhattan, NY 10018 United States
                       <span />
                     </span>
                   </li>
